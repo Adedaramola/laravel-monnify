@@ -1,13 +1,16 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Adedaramola\Monnify\Facades;
 
+use Adedaramola\Monnify\Contracts\ClientContract;
 use Illuminate\Support\Facades\Facade;
 
-class MonnifyFacade extends Facade
+class Monnify extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'laravel-monnify';
+        return ClientContract::class;
     }
 }

@@ -21,6 +21,11 @@
         "illuminate/http": "^10.25",
         "illuminate/support": "^10.25"
     },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^7.8",
+        "laravel/pint": "^1.13",
+        "orchestra/testbench": "^8.12"
+    },
     "autoload": {
         "psr-4": {
             "Adedaramola\\Monnify\\": "src"
@@ -48,10 +53,5 @@
                 "Monnify": "Adedaramola\\Monnify\\Facades\\Monnify"
             }
         }
-    },
-    "require-dev": {
-        "guzzlehttp/guzzle": "^7.8",
-        "laravel/pint": "^1.13",
-        "orchestra/testbench": "^8.12"
     }
 }
