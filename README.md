@@ -2,7 +2,7 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/adedaramola/laravel-monnify.svg?style=flat-square)](https://packagist.org/packages/adedaramola/laravel-monnify)
 [![Total Downloads](https://img.shields.io/packagist/dt/adedaramola/laravel-monnify.svg?style=flat-square)](https://packagist.org/packages/adedaramola/laravel-monnify)
-![GitHub Actions](https://github.com/adedaramola/laravel-monnify/actions/workflows/main.yml/badge.svg)
+![GitHub Actions](https://github.com/adedaramola/laravel-monnify/actions/workflows/test.yml/badge.svg)
 
 ## Installation
 
